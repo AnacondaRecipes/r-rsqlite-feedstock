@@ -10,8 +10,8 @@ package:
 source:
   fn: RSQLite_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/RSQLite_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/RSQLite/RSQLite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/RSQLite_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/RSQLite/RSQLite_{{ version }}.tar.gz
   sha256: 7f0fe629f34641c6af1e8a34412f3089ee2d184853843209d97ffe29430ceff6
 
 
