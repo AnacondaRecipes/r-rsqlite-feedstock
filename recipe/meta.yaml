@@ -76,6 +76,7 @@ about:
   summary: Embeds the 'SQLite' database engine in R and provides an interface compliant with
     the 'DBI' package. The source for the 'SQLite' engine is included.
   license_family: LGPL
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-2'
 
 extra:
   recipe-maintainers:
